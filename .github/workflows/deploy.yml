@@ -45,7 +45,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environnement:
+    environement:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
