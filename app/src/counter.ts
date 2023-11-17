@@ -11,7 +11,7 @@ export function setupCounter(element: HTMLButtonElement) {
 export const decrementCounter = (num: number) => {
   let counter = 0
   counter = num
-  const decreaseNum = num -= 1
+  const decreaseNum = counter -= 1
   return decreaseNum;
 
 }
