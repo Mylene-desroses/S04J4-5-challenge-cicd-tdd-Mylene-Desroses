@@ -35,8 +35,8 @@ jobs:
       # Faire le build
       - name: Build
         run: npm run build
-      - name: Run Test
-        run: npm test
+      - name: Test
+        run: npm run test
       # Upload Artifact
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2.0.0
